@@ -1,0 +1,57 @@
+{
+    "name": "perfect-oblivion/adr",
+    "description": "A collection of PerfectOblivion packages for ADR organization of your Laravel app.",
+    "version": "0.1.0",
+    "keywords": [
+        "perfect-oblivion",
+        "adr",
+        "action",
+        "responder",
+        "services",
+        "laravel"
+    ],
+    "homepage": "https://github.com/perfect-oblivion/adr",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Clayton Stone",
+            "email": "clay@perfectoblivion.com",
+            "homepage": "https://perfectoblivion.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "perfect-oblivion/services": "^0.1",
+        "perfect-oblivion/actions": "^0.1",
+        "perfect-oblivion/responders": "^0.1",
+        "perfect-oblivion/valid": "^0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PerfectOblivion\\Adr\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PerfectOblivion\\Adr\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PerfectOblivion\\Adr\\AdrServiceProvider"
+            ]
+        }
+    }
+}
