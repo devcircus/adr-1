@@ -13,3 +13,7 @@ All notable changes to perfect-oblivion/adr will be documented in this file
 ## 0.3.0 - 09/03/2019
 
 -   Support Laravel 6.
+
+## 0.3.1 - 09/04/2019
+
+-   Fix dependency version for perfect-oblivion/valid.
