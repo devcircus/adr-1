@@ -21,3 +21,7 @@ All notable changes to perfect-oblivion/adr will be documented in this file
 ## 0.3.2 - 09/09/2019
 
 -   Bump dependency of perfect-oblivion/valid.
+
+## 0.3.3 - 10/17/2019
+
+-   Update responders package to 0.3 (without LaraFlash package).

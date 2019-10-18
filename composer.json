@@ -1,7 +1,7 @@
 {
     "name": "perfect-oblivion/adr",
     "description": "A collection of PerfectOblivion packages for ADR organization of your Laravel app.",
-    "version": "0.3.2",
+    "version": "0.3.3",
     "keywords": [
         "perfect-oblivion",
         "adr",
@@ -24,7 +24,7 @@
         "php": "^7.1.3|^7.2|^7.3",
         "perfect-oblivion/services": "^0.3",
         "perfect-oblivion/actions": "^0.2",
-        "perfect-oblivion/responders": "^0.2",
+        "perfect-oblivion/responders": "^0.3",
         "perfect-oblivion/valid": "^0.2.3"
     },
     "require-dev": {
